@@ -1,0 +1,90 @@
+*{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+nav{
+  display: flex;
+  padding-top: 10%;
+  width:90%;
+  padding:0% 10%;
+  justify-content:space-between;
+  align-items:center;
+  position:fixed;
+  background:darkred;
+  z-index:1000;
+
+
+}
+nav img{
+  width:100px;
+}
+
+}
+.logo {
+  background-color: darkred;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.logo a {
+  float: right;
+  color: whitesmoke;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.logo a:hover {
+  background-color: white;
+  color: firebrick;
+}
+
+/* Add a color to the active/current link */
+.logo a.active {
+  background-color: white;
+  color: white;
+}
+.pup{
+	padding-left:15px;
+	font-size: 200%;
+    margin-top: 20px;
+    color:white;
+}
+.container{
+        margin: auto;
+
+}
+.gallery{
+    margin-top:40px;
+    margin-left: 30px;
+    border: 3px solid rgb('0, 0, 0, 0.1');
+    float: left;
+    width: 350px;
+    box-shadow: 0 0 20px 20px rgba('0, 0, 0, 0.1');
+}
+.gallery:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    transition: .4s;
+
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+#img-gal{
+  width:350px;
+  height:350px;
+  padding:100px;
+ padding-bottom: 10px;
+ }
+.con{
+  padding:0px;
+  font-size:20px;
+  font-weight: bold;
+  padding-top:0;
+  padding-left: 120px;
+}

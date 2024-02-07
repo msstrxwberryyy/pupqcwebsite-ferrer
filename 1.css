@@ -1,0 +1,114 @@
+*{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.header{
+  min-height:100vh;
+  width:100%;
+  background-image:url('gg.jpg');
+  background-position: center;
+  position: relative;
+  background-size:cover;
+  opacity:10;
+}
+nav{
+  display: flex;
+  padding-top: 10%;
+  width:90%;
+  padding:0% 10%;
+  justify-content:space-between;
+  align-items:center;
+  position:fixed;
+  background:darkred;
+  z-index:100;
+
+}
+nav img{
+  width:100px;
+}
+
+.logo {
+  background-color: darkred;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.logo a {
+  float: right;
+  color: whitesmoke;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.logo a:hover {
+  background-color: white;
+  color: firebrick;
+}
+
+/* Add a color to the active/current link */
+.logo a.active {
+  background-color: white;
+  color: white;
+}
+.pup{
+  padding-left:0%;
+  font-size: 200%;
+    margin-top: 15;
+    color:white;
+}
+
+
+#jhaz{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: var(--hero);
+}
+
+
+#jhaz #title {
+    font-size: 2.5em;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: 200px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#jhaz #sub-title {
+  padding-top: 20px;
+    font-size: xx-large;
+    font-family: 'Trajan Pro', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#jhaz #quote {
+    font-family: 'Monotype Corsiva';
+    font-size: 4em;
+    color: var(--quote);
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: white;
+}
+
+#horizontal-line div {
+    width: 35em;
+    height: 3px;
+    background-color: var(--jhaz);
+    color: white;
+}
+

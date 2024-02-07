@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.footer{
+    background-color:darkred ;
+}
+.fcontainer{
+    width:100%;
+    padding:40px 50px 50px;
+}
+.socialicons{
+    display:flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration:none;
+    padding:10px;
+    background-color:white;
+    margin:5px;
+    border-radius:20px;
+}
+.socialicons a i{
+    font-size:2em;
+    color:black;
+    opacity:0.9;
+}
+.socialicons a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color:white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footer ul{
+    display: flex;
+    justify-content:center;
+     list-style-type: none;
+
+}
+.footer ul li a{
+    color:white;
+    margin:20px;
+    text-decoration:none;
+    font-size:2em;
+}
+.footer ul li a:hover{
+    background-color:white;
+    color:black;
+    border-radius:100px;
+    padding:10px;
+    margin:5px;
+}
